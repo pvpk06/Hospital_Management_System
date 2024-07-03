@@ -1,0 +1,129 @@
+/* doctorprofile.css */
+
+/* Container styles */
+.doctor-profile {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+/* Profile content styles */
+.profile-content {
+  padding: 20px;
+}
+
+/* Heading styles */
+h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+  color: #333333;
+}
+
+/* Form group styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #555555;
+}
+
+/* Input styles */
+input[type='text'],
+input[type='number'],
+input[type='email'] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type='text']:focus,
+input[type='number']:focus,
+input[type='email']:focus {
+  border-color: #007bff;
+}
+
+/* Button styles */
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Edit icon styles */
+.edit-icon {
+  cursor: pointer;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.edit-icon:hover {
+  color: #0056b3;
+}
+
+/* Additional styles for details sections */
+
+.specialization,
+.qualification,
+.location,
+.experience,
+.email,
+.phone,
+.languages,
+.username,
+.password {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.specialization .label,
+.qualification .label,
+.location .label,
+.experience .label,
+.email .label,
+.phone .label,
+.languages .label,
+.username .label,
+.password .label {
+  font-weight: bold;
+  color: #007bff;
+  text-align: left;
+}
+
+.specialization .value,
+.qualification .value,
+.location .value,
+.experience .value,
+.email .value,
+.phone .value,
+.languages .value,
+.username .value,
+.password .value {
+  text-align: center;
+  display: block;
+}
+
+
